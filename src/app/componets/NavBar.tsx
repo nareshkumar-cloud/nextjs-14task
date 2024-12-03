@@ -14,7 +14,7 @@ const NavBar = () => {
   });
 
   const toggleDropdown = (key: string) => {
-    setDropdownVisible((prev) => ({
+    setDropdownVisible((prev: any) => ({
       ...prev,
       [key]: !prev[key],
     }));
